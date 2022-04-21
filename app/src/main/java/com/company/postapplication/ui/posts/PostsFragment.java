@@ -90,9 +90,9 @@ public class PostsFragment extends Fragment implements OnItemClickListener {
 
     private void delete(String id) {
         AlertDialog.Builder builder = new AlertDialog.Builder(requireContext());
-        builder.setTitle("Вы уверены что хотите удалить данную запись?");
-        builder.setMessage("эту");
-        builder.setPositiveButton("Удалить", new DialogInterface.OnClickListener() {
+        builder.setTitle("Are you sure?");
+        builder.setMessage("this");
+        builder.setPositiveButton("Delete", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 App.api.deletePost(id).enqueue(new Callback<Post>() {

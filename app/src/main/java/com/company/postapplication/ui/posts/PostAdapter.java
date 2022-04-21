@@ -49,18 +49,16 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
     }
 
     private void loadUserMap() {
-        userMap.put(0, "Рахат");
         userMap.put(1, "Мэльсов Ислам");
         userMap.put(2, "Советбеков Нурель");
         userMap.put(3, "Курманбеков Матай");
         userMap.put(4, "Жумабаев Марат");
         userMap.put(5, "Эрнисов Санжар");
         userMap.put(6, "Бурибоев Элмурод");
-        userMap.put(7, "Турдукулов Нурмухаммед");
-        userMap.put(8, "Исмаилов Арстанбек");
-        userMap.put(9, "Эркинов Дастан");
-        userMap.put(10, "Укуев Бексултан");
-        userMap.put(11, "Гашигулин Рустам");
+        userMap.put(7, "Исмаилов Арстанбек");
+        userMap.put(8, "Эркинов Дастан");
+        userMap.put(9, "Укуев Бексултан");
+        userMap.put(10, "Гашигулин Рустам");
     }
 
     @Override
